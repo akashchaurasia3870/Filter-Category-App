@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Filter App</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <div class="filter-container">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search...">
+            <!-- <button id="search-btn">Search</button> -->
+        </div>
+
+        <div class="category-container">
+            <div class="category-btn active" data-category="all" onclick="">
+                All Category
+            </div>
+            <div class="category-btn" data-category="category1">
+                Category1
+            </div>
+            <div class="category-btn" data-category="category2">
+                Category2
+            </div>
+            <div class="category-btn" data-category="category3">
+                Category3
+            </div>
+        </div>
+
+    </div>
+
+    <div class="category-list">
+        <div class="category-item" data-category="category1">
+            <h3>Category1</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae magni provident cum tempora.</p> 
+        </div>
+        <div class="category-item" data-category="category1">
+            <h3>Category1</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae magni provident cum tempora.</p> 
+        </div>
+        <div class="category-item" data-category="category2">
+            <h3>Category2</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae magni provident cum tempora.</p> 
+        </div>
+        <div class="category-item" data-category="category2">
+            <h3>Category2</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae magni provident cum tempora.</p> 
+        </div>
+        <div class="category-item" data-category="category3">
+            <h3>Category3</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae magni provident cum tempora.</p> 
+        </div>
+        <div class="category-item" data-category="category3">
+            <h3>Category3</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae magni provident cum tempora.</p> 
+        </div>
+        <div class="category-item" data-category="category4">
+            <h3>Category4</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae magni provident cum tempora.</p> 
+        </div>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
